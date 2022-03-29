@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ICDProject
+  Name="Windows Mini Workstation"
+  Description=""
+  Version="10.0.21382.1"
+  Id="{0df3a956-c277-4739-b187-a65c8f56e31d}"
+  TemplateName="Provisioning package"
+  TemplateType="ProvisioningPackage">
+  <TargetEditions>
+    <Sku>
+      <StoreType>File</StoreType>
+      <Name>All Windows desktop editions</Name>
+      <SourcePath>Microsoft-Desktop-Provisioning.dat</SourcePath>
+      <Edition>Desktop</Edition>
+      <Version>10.0</Version>
+      <Description>Selecting this option will display settings that are specific to the desktop editions as well as settings that are common to all Windows editions.</Description>
+    </Sku>
+  </TargetEditions>
+</ICDProject>

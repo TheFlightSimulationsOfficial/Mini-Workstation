@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WindowsCustomizations>
+  <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
+    <ID>{0df3a956-c277-4739-b187-a65c8f56e31d}</ID>
+    <Name>Windows Mini Workstation</Name>
+    <Version>1.2</Version>
+    <OwnerType>ITAdmin</OwnerType>
+    <Rank>0</Rank>
+    <Notes></Notes>
+  </PackageConfig>
+  <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
+    <Customizations>
+      <Common>
+        <AccountManagement>
+          <UserProfilePolicies>
+            <EnableProfileManager>True</EnableProfileManager>
+          </UserProfilePolicies>
+        </AccountManagement>
+        <DeviceManagement>
+          <MemoryDump>
+            <AllowCrashDump>Allowed</AllowCrashDump>
+            <AllowLiveDump>Allowed</AllowLiveDump>
+          </MemoryDump>
+        </DeviceManagement>
+        <EditionUpgrade>
+          <ChangeProductKey>NRG8B-VKK3Q-CXVCJ-9G2XF-6Q84J</ChangeProductKey>
+          <UpgradeEditionWithProductKey>NRG8B-VKK3Q-CXVCJ-9G2XF-6Q84J</UpgradeEditionWithProductKey>
+        </EditionUpgrade>
+        <Licensing>
+          <AllowWindowsEntitlementReactivation>True</AllowWindowsEntitlementReactivation>
+          <DisallowKMSClientOnlineAVSValidation>False</DisallowKMSClientOnlineAVSValidation>
+        </Licensing>
+        <OOBE>
+          <Desktop>
+            <EnableCortanaVoice>False</EnableCortanaVoice>
+            <HideOobe>True</HideOobe>
+          </Desktop>
+        </OOBE>
+        <Personalization>
+          <DeployDesktopImage>F:\Windows Mini Workstation\Web\Wallpaper\Windows 11\4.png</DeployDesktopImage>
+          <DeployLockScreenImage>F:\Windows Mini Workstation\Web\Wallpaper\Windows\5.png</DeployLockScreenImage>
+        </Personalization>
+        <Policies>
+          <Accounts>
+            <AllowAddingNonMicrosoftAccountsManually>Yes</AllowAddingNonMicrosoftAccountsManually>
+          </Accounts>
+          <ApplicationManagement>
+            <AllowAllTrustedApps>Yes</AllowAllTrustedApps>
+            <AllowAppStoreAutoUpdate>Disallowed</AllowAppStoreAutoUpdate>
+            <AllowDeveloperUnlock>Yes</AllowDeveloperUnlock>
+          </ApplicationManagement>
+          <Camera>
+            <AllowCamera>No</AllowCamera>
+          </Camera>
+          <FileExplorer>
+            <AllowOptionToShowNetwork>True</AllowOptionToShowNetwork>
+            <AllowOptionToShowThisPC>True</AllowOptionToShowThisPC>
+          </FileExplorer>
+          <Games>
+            <AllowAdvancedGamingServices>Yes</AllowAdvancedGamingServices>
+          </Games>
+          <MemoryDump>
+            <AllowCrashDump>Allowed</AllowCrashDump>
+            <AllowLiveDump>Allowed</AllowLiveDump>
+          </MemoryDump>
+          <Power>
+            <AllowHibernate>Not allowed</AllowHibernate>
+          </Power>
+          <Search>
+            <AllowCloudSearch>Disabled</AllowCloudSearch>
+            <AllowCortanaInAAD>False</AllowCortanaInAAD>
+          </Search>
+          <Start>
+            <ForceStartSize>1</ForceStartSize>
+            <HideFrequentlyUsedApps>Yes</HideFrequentlyUsedApps>
+            <HideHibernate>No</HideHibernate>
+            <HidePeopleBar>Yes</HidePeopleBar>
+          </Start>
+          <System>
+            <AllowBuildPreview>Allowed</AllowBuildPreview>
+            <AllowLocation>No</AllowLocation>
+          </System>
+          <TextInput>
+            <AllowIMELogging>Yes</AllowIMELogging>
+            <AllowInputPanel>Yes</AllowInputPanel>
+          </TextInput>
+          <Update>
+            <AllowAutoUpdate>Notify user before download</AllowAutoUpdate>
+            <UpdateNotificationLevel>Default OS Windows Update notifications</UpdateNotificationLevel>
+          </Update>
+          <WindowsInkWorkspace>
+            <AllowSuggestedAppsInWindowsInkWorkspace>Yes</AllowSuggestedAppsInWindowsInkWorkspace>
+            <AllowWindowsInkWorkspace>On</AllowWindowsInkWorkspace>
+          </WindowsInkWorkspace>
+          <WindowsLogon>
+            <EnableFirstLogonAnimation>Yes</EnableFirstLogonAnimation>
+            <HideFastUserSwitching>No</HideFastUserSwitching>
+          </WindowsLogon>
+        </Policies>
+        <SMISettings>
+          <AutoLogon>
+            <Enable>ENABLE</Enable>
+            <UserName>Workstation</UserName>
+          </AutoLogon>
+          <CrashDumpEnabled>Mini dump</CrashDumpEnabled>
+          <DisableBootMenu>False</DisableBootMenu>
+          <HideAllBootUI>False</HideAllBootUI>
+          <HideBootLogo>False</HideBootLogo>
+        </SMISettings>
+      </Common>
+    </Customizations>
+  </Settings>
+</WindowsCustomizations>
