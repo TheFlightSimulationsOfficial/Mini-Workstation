@@ -5,7 +5,7 @@
     <Name>Windows Mini Workstation</Name>
     <Version>1.2</Version>
     <OwnerType>ITAdmin</OwnerType>
-    <Rank>0</Rank>
+    <Rank>52</Rank>
     <Notes></Notes>
   </PackageConfig>
   <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
@@ -16,6 +16,11 @@
             <EnableProfileManager>True</EnableProfileManager>
           </UserProfilePolicies>
         </AccountManagement>
+        <Accounts>
+          <ComputerAccount>
+            <ComputerName>MiniWorkstation</ComputerName>
+          </ComputerAccount>
+        </Accounts>
         <DeviceManagement>
           <MemoryDump>
             <AllowCrashDump>Allowed</AllowCrashDump>
@@ -37,8 +42,8 @@
           </Desktop>
         </OOBE>
         <Personalization>
-          <DeployDesktopImage>F:\Windows Mini Workstation\Web\Wallpaper\Windows 11\4.png</DeployDesktopImage>
-          <DeployLockScreenImage>F:\Windows Mini Workstation\Web\Wallpaper\Windows\5.png</DeployLockScreenImage>
+          <DeployDesktopImage>F:\Windows Configuration Designer\Windows Mini Workstation\Mini-Workstation\wallpaper.png</DeployDesktopImage>
+          <DeployLockScreenImage>F:\Windows Configuration Designer\Windows Mini Workstation\Mini-Workstation\lockscreen.png</DeployLockScreenImage>
         </Personalization>
         <Policies>
           <Accounts>
@@ -66,6 +71,10 @@
           <Power>
             <AllowHibernate>Not allowed</AllowHibernate>
           </Power>
+          <Privacy>
+            <AllowInputPersonalization>Yes</AllowInputPersonalization>
+            <DisableAdvertisingId>Yes</DisableAdvertisingId>
+          </Privacy>
           <Search>
             <AllowCloudSearch>Disabled</AllowCloudSearch>
             <AllowCortanaInAAD>False</AllowCortanaInAAD>
@@ -85,7 +94,7 @@
             <AllowInputPanel>Yes</AllowInputPanel>
           </TextInput>
           <Update>
-            <AllowAutoUpdate>Notify user before download</AllowAutoUpdate>
+            <AllowAutoUpdate>Turn off automatic updates</AllowAutoUpdate>
             <UpdateNotificationLevel>Default OS Windows Update notifications</UpdateNotificationLevel>
           </Update>
           <WindowsInkWorkspace>

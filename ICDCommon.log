@@ -1,41 +1,11 @@
-3/27/2022 10:58:36 AM Info ICD Started
-3/27/2022 10:58:39 AM Warning Image customization functionality is disabled because imaging tools are not installed.
-3/27/2022 10:58:39 AM Warning Exception on reading AutoLaunchConfigScenarioId. The key 'AutoLaunchConfigScenarioId' does not exist in the appSettings configuration section.
-3/27/2022 10:58:39 AM Warning Exception on reading ICDWindowTitle. The key 'ICDWindowTitle' does not exist in the appSettings configuration section.
-3/27/2022 10:58:39 AM Info AutoLaunchConfigScenarioId: 00000000-0000-0000-0000-000000000000
-3/27/2022 10:58:39 AM Info ICDWindowTitle: 
-3/27/2022 11:03:26 AM Info Loaded Knobs schema hive at C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Imaging and Configuration Designer\x86\Microsoft-Desktop-Provisioning.dat
-3/27/2022 11:03:26 AM Error WpxGetFileEdition (onecore\base\ntsetup\wpx\core\store.cpp:103) - 0x80070002:
-3/27/2022 11:03:26 AM Error     No SKU information file C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Imaging and Configuration Designer\x86\Microsoft-Desktop-Provisioning.sku.xml available for store file C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Imaging and Configuration Designer\x86\Microsoft-Desktop-Provisioning.dat
-3/27/2022 11:03:26 AM Info Loaded settings from Windows Unknown Unknown
-3/27/2022 11:03:59 AM Info Project 'F:\Windows Configuration Designer\Project1\Project_1.icdproj.xml' loaded successfully
-3/27/2022 11:03:59 AM Info Loaded Knobs schema hive at C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Imaging and Configuration Designer\x86\Microsoft-Desktop-Provisioning.dat
-3/27/2022 11:03:59 AM Error WpxGetFileEdition (onecore\base\ntsetup\wpx\core\store.cpp:103) - 0x80070002:
-3/27/2022 11:03:59 AM Error     No SKU information file C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Imaging and Configuration Designer\x86\Microsoft-Desktop-Provisioning.sku.xml available for store file C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Imaging and Configuration Designer\x86\Microsoft-Desktop-Provisioning.dat
-3/27/2022 11:03:59 AM Info Loaded settings from Windows Unknown Unknown
-3/27/2022 11:04:40 AM Info Loaded Knobs schema hive at C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Imaging and Configuration Designer\x86\Microsoft-Desktop-Provisioning.dat
-3/27/2022 11:04:40 AM Error WpxGetFileEdition (onecore\base\ntsetup\wpx\core\store.cpp:103) - 0x80070002:
-3/27/2022 11:04:40 AM Error     No SKU information file C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Imaging and Configuration Designer\x86\Microsoft-Desktop-Provisioning.sku.xml available for store file C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Imaging and Configuration Designer\x86\Microsoft-Desktop-Provisioning.dat
-3/27/2022 11:04:40 AM Info Loaded settings from Windows Unknown Unknown
-3/29/2022 1:11:13 PM Info ICD Started
-3/29/2022 1:11:17 PM Warning Image customization functionality is disabled because imaging tools are not installed.
-3/29/2022 1:11:17 PM Warning Exception on reading AutoLaunchConfigScenarioId. The key 'AutoLaunchConfigScenarioId' does not exist in the appSettings configuration section.
-3/29/2022 1:11:17 PM Warning Exception on reading ICDWindowTitle. The key 'ICDWindowTitle' does not exist in the appSettings configuration section.
-3/29/2022 1:11:17 PM Info AutoLaunchConfigScenarioId: 00000000-0000-0000-0000-000000000000
-3/29/2022 1:11:17 PM Info ICDWindowTitle: 
-3/29/2022 1:11:19 PM Info Project 'F:\Windows Configuration Designer\Windows Mini Workstation\Windows Mini Workstation.icdproj.xml' loaded successfully
-3/29/2022 1:11:19 PM Info Loaded Knobs schema hive at C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Imaging and Configuration Designer\x86\Microsoft-Desktop-Provisioning.dat
-3/29/2022 1:11:19 PM Error WpxGetFileEdition (onecore\base\ntsetup\wpx\core\store.cpp:103) - 0x80070002:
-3/29/2022 1:11:19 PM Error     No SKU information file C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Imaging and Configuration Designer\x86\Microsoft-Desktop-Provisioning.sku.xml available for store file C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Imaging and Configuration Designer\x86\Microsoft-Desktop-Provisioning.dat
-3/29/2022 1:11:19 PM Info Loaded settings from Windows Unknown Unknown
-3/29/2022 1:59:49 PM Info ICD Started
-3/29/2022 1:59:51 PM Warning Image customization functionality is disabled because imaging tools are not installed.
-3/29/2022 1:59:51 PM Warning Exception on reading AutoLaunchConfigScenarioId. The key 'AutoLaunchConfigScenarioId' does not exist in the appSettings configuration section.
-3/29/2022 1:59:51 PM Warning Exception on reading ICDWindowTitle. The key 'ICDWindowTitle' does not exist in the appSettings configuration section.
-3/29/2022 1:59:51 PM Info AutoLaunchConfigScenarioId: 00000000-0000-0000-0000-000000000000
-3/29/2022 1:59:51 PM Info ICDWindowTitle: 
-3/29/2022 1:59:53 PM Info Project 'F:\Windows Configuration Designer\Windows Mini Workstation\Windows Mini Workstation.icdproj.xml' loaded successfully
-3/29/2022 1:59:53 PM Info Loaded Knobs schema hive at C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Imaging and Configuration Designer\x86\Microsoft-Desktop-Provisioning.dat
-3/29/2022 1:59:53 PM Error WpxGetFileEdition (onecore\base\ntsetup\wpx\core\store.cpp:103) - 0x80070002:
-3/29/2022 1:59:53 PM Error     No SKU information file C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Imaging and Configuration Designer\x86\Microsoft-Desktop-Provisioning.sku.xml available for store file C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Imaging and Configuration Designer\x86\Microsoft-Desktop-Provisioning.dat
-3/29/2022 1:59:53 PM Info Loaded settings from Windows Unknown Unknown
+3/31/2022 9:07:40 PM Info ICD Started
+3/31/2022 9:07:41 PM Warning Image customization functionality is disabled because imaging tools are not installed.
+3/31/2022 9:07:41 PM Warning Exception on reading AutoLaunchConfigScenarioId. The key 'AutoLaunchConfigScenarioId' does not exist in the appSettings configuration section.
+3/31/2022 9:07:41 PM Warning Exception on reading ICDWindowTitle. The key 'ICDWindowTitle' does not exist in the appSettings configuration section.
+3/31/2022 9:07:41 PM Info AutoLaunchConfigScenarioId: 00000000-0000-0000-0000-000000000000
+3/31/2022 9:07:41 PM Info ICDWindowTitle: 
+3/31/2022 9:07:43 PM Info Project 'F:\Windows Configuration Designer\Windows Mini Workstation\Mini-Workstation\Windows Mini Workstation.icdproj.xml' loaded successfully
+3/31/2022 9:07:43 PM Info Loaded Knobs schema hive at C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Imaging and Configuration Designer\x86\Microsoft-Desktop-Provisioning.dat
+3/31/2022 9:07:43 PM Error WpxGetFileEdition (onecore\base\ntsetup\wpx\core\store.cpp:103) - 0x80070002:
+3/31/2022 9:07:43 PM Error     No SKU information file C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Imaging and Configuration Designer\x86\Microsoft-Desktop-Provisioning.sku.xml available for store file C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Imaging and Configuration Designer\x86\Microsoft-Desktop-Provisioning.dat
+3/31/2022 9:07:43 PM Info Loaded settings from Windows Unknown Unknown
